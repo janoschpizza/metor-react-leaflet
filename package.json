@@ -2,9 +2,11 @@
   "name": "react-leaflet-test",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "test": "meteor test --driver-package practicalmeteor:mocha"
   },
   "dependencies": {
+    "chai": "^3.5.0",
     "leaflet": "^0.7.7",
     "meteor-node-stubs": "~0.2.0",
     "react": "^15.3.1",

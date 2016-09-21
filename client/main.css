@@ -1,7 +1,11 @@
 /* CSS declarations go here */
-
+body,html {
+  width: 600px;
+  height: 600px;
+}
 
 .leaflet-container {
-  width: 100%;
+  width: 500px;
   height: 500px;
+  background-color: orange;
 }
